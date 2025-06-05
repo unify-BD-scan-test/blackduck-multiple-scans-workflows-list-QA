@@ -19,7 +19,7 @@ jobs:
       - name: checkout Source Code
         uses: cloudbees-io/checkout@v1
         with:
-            repository: cbp-automation-ninja/blackduck-scan-kubernetes-libraries-dependencies
+          repository: cbp-automation-ninja/blackduck-multiple-scans-workflows-list
       - name: black duck hybrid plugin scan
         uses: cloudbees-io/blackduck-sca-scan-dependency@v2
         with:
