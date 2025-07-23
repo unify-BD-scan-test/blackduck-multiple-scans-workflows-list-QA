@@ -25,7 +25,7 @@ jobs:
         with:
           server-url: https://blackduck.saas-qa.beescloud.com
           api-token: ${{ secrets.BD_API_TOKEN }}
-          project-name: blackduck-vulnerablities-cpp
+          project-name: blackduck-multiWF-cpp
           project-version: 0.0.1
           detect-cli-params: --logging.level.detect=DEBUG --blackduck.offline.mode=false
           ref: main
